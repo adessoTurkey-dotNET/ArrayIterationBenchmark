@@ -1,3 +1,6 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿using BenchmarkDotNet.Running;
+using IterationBenchmark.TestQuizes;
 
-Console.WriteLine("Hello, World!");
+//BenchmarkRunner.Run<IterationTestQuize>();
+BenchmarkRunner.Run<FiterTestQuize>();
+//BenchmarkRunner.Run<TransformationTestQuize>();
